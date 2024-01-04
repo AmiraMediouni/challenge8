@@ -50,7 +50,7 @@ export class UsersComponent implements OnInit {
         updateUser(){
           this._usersService.updateUser(this.new_user)
           .subscribe(data=>{
-           // this.updt=false
+           this.updt=false
           })
         }
         
